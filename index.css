@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    font-family: Calibri;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 25px;
+    text-align: center;
+}
+
+.hb{
+    border: 1px solid gray;
+}
+#first{
+    font-weight: bold;
+}
+
+.task-name{
+    width: 250px;
+}
+
+.no{
+    width: 20px;
+}
+
+.status{
+    width: 100px;
+}
+
+.edit{
+    width: 25px;
+}
+
+.edit1{
+    width: 25px;
+    color: #5bc0de;
+    border: 1px solid #5bc0de;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.remove{
+    width: 65px;
+}
+
+.remove1{
+    width: 25px;
+    margin-right: 20px;
+    color: gray;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.status1{
+    border: 2px solid gray;
+    color: gray;
+    border-radius: 3px;
+    width: 100px;
+}
+
+.status2{
+    border: 2px solid orange;
+    color: orange;
+    border-radius: 3px;
+    width: 100px;
+}
+
+.status3{
+    border: 2px solid green;
+    color: green;
+    border-radius: 3px;
+    width: 100px;
+}
+
+.status4{
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 3px;
+    width: 100px;
+}
