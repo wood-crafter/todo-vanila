@@ -1,0 +1,67 @@
+* {
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.formsingup {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(48, 242, 181);
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.box {
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.btnsignup {
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button ~ div {
+    margin-bottom: 20px;
+}
+
+.google {
+    width: 45%;
+    height: 50px;
+}
+
+.facebook {
+    width: 45%;
+    height: 50px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.title {
+    margin-top: 20px;
+}
