@@ -67,7 +67,11 @@ button {
     color: white;
     font-weight: bold;
     font-size: 20px;
+}
 
+/* Khi đưa chuột qua thẻ button đổi màu sang thành màu khác để nhận biết */
+.btnsignup:hover {
+    background-color: rgba(240, 81, 35, 0.8);
 }
 
 button~div {
@@ -101,6 +105,7 @@ img {
     height: 20px;
 }
 
+/* Thường sử dụng trong thẻ input hoặc textarea - Văn bản gợi ý cho người dùng cần nhập liệu */
 ::placeholder {
     color: black;
     font-size: 15px;
@@ -111,7 +116,6 @@ img {
     justify-content: center;
     margin-top: 20px;
     background-color: white;
-
 }
 
 .imgsignup-container {
@@ -136,4 +140,21 @@ img {
 .btnicon,
 .btntext {
     margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.asignin {
+    color: red;
+}
+
+/* Khi kick chuột vào dòng đổi màu chữ thành đỏ */
+.btntext:active {
+    color: red;
+}
+
+.box:focus {
+    border: 2px solid red;
 }
